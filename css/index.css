@@ -1,0 +1,148 @@
+img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nav-items{
+    display: flex;
+    flex-grow: 1;
+    justify-content:center;
+    
+    
+    
+    margin-top: -75px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-item{
+    display: flex;
+    margin: 50px;
+}
+
+.active-item{
+    color: black;
+}
+.active-item:hover{
+    color: #f5763b;
+}
+.actions{
+    display: flex;
+    float: right;
+    margin-top: -90px;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+h1{
+    font-size: 90px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+.sub-headlines{
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.sub-headline img{
+    background-color: darkorange;
+    border-radius: 50%;
+}
+
+.text{
+    color: black;
+    margin-left: 15px;
+}
+
+.action-btn{
+    background-color: #FF9F4A;
+    border: none;
+    border-radius: 5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.action-btn:hover{
+    background-color: #FF6666;
+}
+
+
+h4{
+    margin-left: 12%;
+    margin-top: -140px;
+    color: black;
+}
+
+.discount{
+    
+    margin-top: 50%;
+}
+
+.right-section{
+    float: right;
+    margin-top: -70%;
+}
+
+.discount,
+.discount-content {
+  position: absolute;
+  top: 280px;
+  right: 450px;
+  width: 150px;
+}
+
+.discount-content {
+  right: 450px;
+  top: 350px;
+  color: #fff;
+}
+
+.discount-content h1 {
+  position: relative;
+  margin-top: -15px;
+  font-size: 50px;
+  margin-left: 25px;
+  
+}
+
+.discount-content h4{
+    position: relative;
+    margin-top: 290px;
+    font-size: 20px;
+    margin-left: 35px;
+    
+}
+.headphone-div img {
+  margin-top: 330px;
+}
+
+.dot {
+  border-radius: 15px;
+  height: 25px;
+  width: 25px;
+  margin: 0 0px;
+  background-color: #bbb;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+
+.yellow-dot {
+  background-color: #fbd104;
+}
+
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: #000;
+}
